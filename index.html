@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gratitude Journal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gratitude Journal</h1>
+        <div class="todo-container">
+            <div class="todo-list" id="list1">
+                <h2>All things</h2>
+                <div class="input-container">
+                    <input type="text" id="task1" placeholder="Enter a task">
+                    <button class="add-btn" onclick="addTask('task1', 'tasks1')">+</button>
+                </div>
+                <ul id="tasks1"></ul>
+            </div>
+            <div class="todo-list" id="list2">
+                <h2>That Thing</h2>
+                <div class="input-container">
+                    <input type="text" id="task2" placeholder="Enter a task">
+                    <button class="add-btn" onclick="addTask('task2', 'tasks2')">+</button>
+                </div>
+                <ul id="tasks2"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
